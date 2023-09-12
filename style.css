@@ -1,0 +1,76 @@
+
+
+/* syntax
+selector {
+    property: "value"
+} */
+
+* {
+    box-sizing: border-box;
+    padding: 0px;
+    margin: 0px;
+    background-color: bisque;
+   
+    font-family: 'Pathway Extreme', sans-serif;
+        font-family: 'Playfair Display', serif;
+        font-family: 'Qwitcher Grypen', cursive;
+}
+
+div {
+padding: 20px;
+margin: 20px;
+border-radius: 30px;
+width: 300px;
+    height: 300px;
+    border: 1px solid blue;
+    box-sizing: border-box;
+}
+
+body {
+    background-color: aquamarine;
+}
+
+h1 {
+    font-size: 100px;
+}
+#header3 {
+    font-size: 100px;
+}
+
+.header4 {
+    font-size: 100px;
+}
+
+h5 {
+    background-color: aqua;
+}
+/* BOOSTRAP MEDIA BREAKPOINTS */
+/* Small devices (landscape phones, 576px and up) */
+@media (min-width: 576px) {
+    h5 {
+        background-color: brown;
+    }
+}
+
+/* Medium devices (tablets, 768px and up) The navbar toggle appears at this breakpoint */
+@media (min-width: 768px) {
+    h5 {
+            background-color: rgb(60, 149, 73);
+        }
+}
+
+/* Large devices (desktops, 992px and up) */
+@media (min-width: 992px) {
+    h5 {
+            background-color: rgb(84, 42, 138);
+        }
+}
+
+/* Extra large devices (large desktops, 1200px and up) */
+@media (min-width: 1200px) {
+    h5 {
+            background-color: rgb(229, 215, 91);
+        }
+}
+
+
