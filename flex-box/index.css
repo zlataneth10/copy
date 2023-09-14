@@ -1,0 +1,14 @@
+.container {
+    border: 5px solid #3b0764;
+    display: flex;
+    /* justify-content: space-around; */
+    /* flex-direction: row; */
+}
+
+ .home {
+    flex: 2;
+}
+
+ol {
+    display:flex;
+}
