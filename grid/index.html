@@ -1,0 +1,33 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <title>css grid one</title>
+    <style>
+        .container {
+            display: grid;
+            grid-template-columns: 50% 30%;
+            grid-column-gap: 1em;
+            grid-row-gap: 1em;
+            /* grid-gap: 1em; */
+        }
+
+        .container > div {
+            background: #eee;
+            padding: 1em;
+        }
+
+        .container > div:nth-child(odd) {
+            background: #ddd
+        }
+    </style>
+
+</head>
+<body>
+   <div class="container">
+        <div>Lorem ipsum dolor sit amet consectetur adipisicing elit. Eum ipsa fuga harum accusamus incidunt sit amet quo totam asperiores inventore 1.</div>
+        <div>Lorem ipsum dolor sit amet consectetur adipisicing elit. Eum ipsa fuga harum accusamus incidunt sit amet quo totam asperiores inventore 2.</div>
+        <div>Lorem ipsum dolor sit amet consectetur adipisicing elit. Eum ipsa fuga harum accusamus incidunt sit amet quo totam asperiores inventore 3.</div>
+        <div>Lorem ipsum dolor sit amet consectetur adipisicing elit. Eum ipsa fuga harum accusamus incidunt sit amet quo totam asperiores inventore. 4</div>
+   </div>
+</body>
+</html>

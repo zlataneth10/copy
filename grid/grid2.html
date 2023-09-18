@@ -1,0 +1,55 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <title>grid 2</title>
+    <style>
+        .container {
+            display: grid;
+            grid-template-columns: 1fr 2fr 1fr;
+            grid-gap:1em;
+        }
+
+        .container > div {
+            background: #eee;
+            padding: 1em;
+        }
+        .nested { 
+            display: grid;
+            grid-template-columns: repeat(3, 1fr);
+            grid-gap: 1em;
+        }
+
+        .nested > div {
+            border: #0f0e0e 1px solid;
+            padding: 1em;
+        }
+    </style>
+</head>
+<body>
+    <div class="container">
+        <div>Lorem ipsum dolor sit amet.</div>
+        <div>Lorem ipsum dolor sit amet.</div>
+        <div>Lorem ipsum dolor sit amet.</div>
+        <div>Lorem ipsum dolor sit amet.</div>
+        <div>Lorem ipsum dolor sit amet. Lorem ipsum dolor sit amet consectetur adipisicing elit. Possimus itaque voluptas consequatur pariatur harum. Eveniet tempore ipsum mollitia consequuntur error.</div>
+        <div class="nested">
+            <div>lorem</div>
+            <div>lorem</div>
+            <div>lorem</div>
+            <div>lorem</div>
+            <div>lorem</div>
+            <div>lorem</div>
+            <div>lorem</div>
+            <div>lorem</div>
+            <div>lorem</div>
+            
+        </div>
+
+        <div>Lorem ipsum dolor sit amet.</div>
+        <div>Lorem ipsum dolor sit amet.</div>
+        <div>Lorem ipsum dolor sit amet.</div>
+        <div>Lorem ipsum dolor sit amet.</div>
+
+    </div>
+</body>
+</html>
