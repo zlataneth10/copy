@@ -1,11 +1,11 @@
 
-console.log("hello world");
+// console.log("hello world");
 
-var ND = " tech";
-let richard = 3;
-const qudus = "student"
+// var ND = " tech";
+// let richard = 3;
+// const qudus = "student"
 
-console.log( ND, richard, qudus)
+// console.log( ND, richard, qudus)
 
 // RULES FOR NAMING A VARIABLE
 
@@ -126,8 +126,106 @@ console.log( ND, richard, qudus)
 
 // greet("qudus")
 
-function add(number) {
-    return number + number
-}
+// function add(number) {
+//     return number + number
+// }
 
-console.log(add(2))
+// function sub(number) {
+//     return number - number
+// }
+// console.log(add(2))
+// console.log(sub(2))
+
+// STRING CONCATENATION
+// let name = "qudus"
+// let age = 32
+
+// Archaic Method
+// console.log("My name is " + name + " i am " + age + " years old");
+
+// TEMPLATE LITERALS METHOD 
+// console.log(`My name is ${name} i am ${age} years old`)
+
+// STRING PROPERTY AND METHODS
+// let s = "HELLO WORLD";
+// let val
+// val = s.length
+
+// val = s.toLocaleLowerCase()
+// val = s.split("")
+// val = s.slice(2, 5)
+// console.log(val)
+
+// ARRAY METHODS AND PROPERTIES
+// const colors = ["black", "white", "red", "blue"]
+// colors.splice(2,3 , "pink", "purple")
+// // console.log(colors[3])
+// // colors.push("yellow")
+// // colors.unshift("grey")
+// // colors.pop()
+// // colors.shift()
+//  console.log(colors);
+
+// ARITHEMETIC OPERATORS
+// +, -, /, *, % **
+// console.log(5 + 5)
+// console.log(5 - 5)
+// console.log(10 / 2)
+// console.log(10 * 2)
+// console.log(10 % 3)
+// console.log(10 + "10")
+// console.log(10 ** 10)
+
+// let j = 5;
+// // console.log(++j)
+// console.log(--j)
+
+// OBJECT LITERALS
+// const person = {
+//     firstName: "qudus",
+//     age: 30,
+//     hobbies: ["music", "movies", "sports"],
+//     address: {
+//         street: " yaba gomycode",
+//         city: "lagos",
+//         state: "lagos state"
+//     }
+// }
+// person.email = "qudus@email.com"
+// person.hobbies.push("singing")
+
+// console.table(person)
+
+// const users = [
+// {
+// name: 'person',
+// age: 23,
+// email: "p1@gmail.com",
+// },
+// {
+// name: 'person 2',
+// age: 31,
+// email: "p2@gmail.com",
+// },
+// {
+// name: 'person 3',
+// age: 155,
+// email: "p3@gmail.com",
+// }
+//  ];
+
+//  console.log(users[0])
+
+ // COMPARISON OPERATORS
+// = assigns a value to a variable*
+
+// == compares the value of the variables
+
+// === compares the value and type of the variables
+
+// ! returns the opposite boolean
+
+// != compares the inequality based on value
+
+// !== compares the inequality based on value and type
+// let number = 3 !='3'
