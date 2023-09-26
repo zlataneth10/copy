@@ -319,3 +319,18 @@ let color = "black";
 
 colorCheck = color === "red"? "yes color is red" : "No color isnt red"
 console.log(colorCheck)
+
+// research chained ternary operator with example
+
+
+// function add(number) {
+//     return number + 3
+// }
+
+// const add = () => {
+//     return 2+3
+// }
+
+ const add = (number) => number + 5
+
+console.log(add(5))
