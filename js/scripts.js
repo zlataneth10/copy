@@ -229,3 +229,6 @@
 
 // !== compares the inequality based on value and type
 // let number = 3 !='3'
+
+
+AND(&&), OR(||) and the NOT(!) operators
