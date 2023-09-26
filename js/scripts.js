@@ -219,6 +219,9 @@
  // COMPARISON OPERATORS
 // = assigns a value to a variable*
 
+// const money = 50
+// console.log(money)
+
 // == compares the value of the variables
 
 // === compares the value and type of the variables
@@ -231,4 +234,88 @@
 // let number = 3 !='3'
 
 
-AND(&&), OR(||) and the NOT(!) operators
+// AND(&&), OR(||) and the NOT(!) operators
+
+// For Loop
+// for (initialization; condition; increment) {
+//     logic
+// }
+
+// for (let i = 0; i < 10; i++) {
+//     console.log(`For loop number : ${i}`)
+// }
+
+// let i = 0;
+// while (i < 10) {
+//     console.log(`While loop number : ${i}`);
+//     i++
+// }
+
+//  const numbers = [ 4, 6, 8, 12, 14, 16]
+
+// for (number = 0; number <= 16; number++){
+//     console.log(numbers)
+// }
+
+// for (let i = 0; i < numbers.length; i++) {
+//     console.log(numbers[i])
+// }
+
+// const person = {
+//     name : "john",
+//     age: 23,
+//     gender: "male",
+//     height: 172,
+//     tribe: "igbo"
+// }
+
+// for (let key in person) {
+//     console.log(key + ":" + person[key]);
+// }
+
+// const numbers = [45, 4, 9, 16, 25];
+
+// let txt = "";
+// for (let x in numbers) {
+//   console.log(txt += numbers[x]);
+// }
+
+// const fruits = [ "apple", "banana", "guava", "cashew"];
+
+// for (let fruit of fruits) {
+//     console.log(fruit);
+// }
+
+// IF/ELSE STATEMENT
+
+// const x = 30;
+
+// if (x === 10) {
+//     console.log("x is 10");
+// } else if (x > 10) {
+//     console.log("x is greater than 10")
+// } else {
+//     console.log("x is less than 10")
+// }
+
+let color = "black";
+
+// switch(color) {
+//     case 'red':
+//     console.log("color is red");
+//     break;
+//     case 'blue':
+//     console.log("color is blue");
+//     break;
+//     case 'green':
+//     console.log("color is green");
+//     break;
+//     default: 
+//     console.log("color is not red , blue or green")
+// }
+
+// ternary shorthand if
+// condition ? true : false
+
+colorCheck = color === "red"? "yes color is red" : "No color isnt red"
+console.log(colorCheck)
