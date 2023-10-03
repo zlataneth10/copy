@@ -331,6 +331,19 @@ console.log(colorCheck)
 //     return 2+3
 // }
 
- const add = (number) => number + 5
+//  const add = (number) => number + 5
 
-console.log(add(5))
+// console.log(add(5))
+
+// console.log(20 - 5)
+// console.log(2 + 2 - 5)
+
+
+
+function add() {
+    let a = 20
+let b = 30
+   return a + b
+}
+
+console.log(add())

@@ -1,0 +1,154 @@
+// INTRO TO ALGORITHM
+// What is an algorithm??
+// it is a set of well-defined intruction to solving a particular problem. 
+
+// for example 
+// ingredient => recipe = tasty dish
+
+
+// AN algorithm to add two Numbers
+
+// inputs => algorithm => output
+
+// inputs
+// two numbers (a and b)
+
+// algorithm 
+// 1. add number using +
+// 2. return a value
+
+// output
+// sum of a and b
+
+// characteristics of an algorithm
+// a well defined inputs and output
+// each steps should be clear an unambigiuos
+// language independent
+
+// why should you learn algorithm?
+// equip you with different techniques to solving a SyncProblem.SyncProblemone problem can be solve in different ways.
+
+// How can we analyse which one of them is the most efficient Algorithm
+// Generally, when we talk about performance, we use an absolute measure
+// if i can run 100 meters in 12 seconds, im faster than someone who takes 15 seconds.
+// >> the absolute running time of an algorithm cannot be predicted, since it depends on a number of factors
+// - It can change 
+// due to the programming language used to implement the algorithm
+// due to the computer the program runs on
+// due to other programs running at the same time
+// due to the quality of the operation system and many other factors.
+// >>>>
+// now we evaluate the performance of an algorithm in terms of the input size
+// the evaluation is two types
+// 1. time complexity-Amount of time taken by an algorithm to run, as a function of input size
+// 2. Space complexity- amount of memory taken by an algorithm to run, as a function of input size
+
+// by evaluating against the input size, the Analysisis not only machine independent but comparison is also more approprate.
+
+// keep in mind there is no one solution that works best every single time.
+
+// it is always good to know that there are multiple ways to solve the problem and use the best solution, given the constrains
+// if your app needs to be very quick and has plenty of memory to work with, you don't have to worry about space complexity
+
+// if you have a very little memory to work with, you should pick a solution that is relatively slower but needs less space.
+
+// How do we represent the complexity?( the time and space complexity)
+
+// we us Asymptotic notation
+// (Mathematical tools to represent time and space complexity)
+
+// 1. big-0 Notation-( worst case complexity)
+// 2. Omega Notation-(best case complexity)
+// 3.Theta Notation (Average case complexity)
+
+// our focus is 1.
+
+// const person = {
+//     firstName: "john",
+//     lastName: "doe"
+// }
+
+// access
+// insert
+// remove
+
+// constant time compplexity  = O(1).O
+
+// search
+// Object.keys()- O(n)
+// Object.value()
+// Object.entries()
+
+// linear time complexity - O(n)
+
+// Array
+// const odd = [1, 3, 5, 7, 9]
+
+// if you insert/remove from the end of the array -O(1)
+// if you insert/remove at beginning -O(n)
+// this is because the index has to be reset for every element remaining in the array
+
+// access - O(1)
+// Search- O(n)
+
+// Push/ pop - O(1)
+// Shift/ unshift /concat/ slice/ splice - O(n)
+
+// forEach/map/filter/reduce- o(n).
+
+// function summation(n) {
+//     let sum = 0;        // 1   
+//     for(let i = 1; i <= n; i++) { // 4
+//         sum += i
+//     }
+//     return sum   //1
+// }
+
+// console.log(summation(4))
+
+// time complexity
+// O(n)- linear
+// means at the input increases the time complexity also increases.
+
+// function summation(n) {
+//     return (n * (n + 1)) / 2
+// }
+// console.log(summation(4))
+
+// constant time complexity O(1)
+
+
+// https://www.geeksforgeeks.org/learn-javascript-js-roadmap-for-beginners/?ref=outind
+
+// javascript variable exercise
+// write a code that switched the values around
+
+// var a = "3";
+// var b = "8";
+// so that the variable a holds the value 8
+// and variable b hold the value 5
+
+// aim :
+// when th code is run: the output:
+// a is 8
+// b is 3
+
+// do not change any of the existing code
+// you are not allowed to type any numbers
+// you should not redeclare variable a and b.
+
+function test() {
+	var a = "3"
+	var b = "8"
+/****** Do Not Change The Code Above******/
+// Write your code below
+
+
+
+//***** Do not change the code below ****/
+
+console.log("a is " + a)
+console.log("b is " + b)
+}
+
+test()
