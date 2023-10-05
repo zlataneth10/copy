@@ -106,9 +106,23 @@
 
 // console.log(summation(4))
 
+// ALGORITHM_SUMMATION_OF_N
+// VAR 
+// 	n : INTEGER;
+// 	sum : INTEGER:=0;
+// BEGIN
+// 	Set sum to 0.
+// 	FOR DO i = 1 to n:
+// 		Add i to sum (sum += i)
+// 	Write(sum)
+// END
+
+
+
+
 // time complexity
 // O(n)- linear
-// means at the input increases the time complexity also increases.
+// means as the input increases the time complexity also increases.
 
 // function summation(n) {
 //     return (n * (n + 1)) / 2
@@ -137,18 +151,64 @@
 // you are not allowed to type any numbers
 // you should not redeclare variable a and b.
 
-function test() {
-	var a = "3"
-	var b = "8"
-/****** Do Not Change The Code Above******/
-// Write your code below
+// function test() {
+// 	var a = "3"
+// 	var b = "8"
+// /****** Do Not Change The Code Above******/
+// // Write your code below
 
 
 
-//***** Do not change the code below ****/
+// //***** Do not change the code below ****/
 
-console.log("a is " + a)
-console.log("b is " + b)
+// console.log("a is " + a)
+// console.log("b is " + b)
+// }
+
+// test()
+
+// FIBONACCI SEQUENCE
+// problem: Given a number "n", find the "n" element of the Fibonacci sequence!
+// {1,1,2,3,5,8,13,21,34,55,55+34=89,89+55=144,⋯}
+
+// fibonacci[2] = [0,1]
+// fibonacci[3] = [0,1,1]
+// fibonacci[7] = [0,1,1,2,3,5,8]
+
+
+
+// function fibonacci(n) {
+// 	const fib = [0, 1]
+// 	for (let i = 2; i <= n; i++) {
+// 		fib[i] = fib[i-1] + fib[i - 2]
+// 	}
+
+// 	return fib
+// }
+
+// console.log(fibonacci(2))
+// console.log(fibonacci(3))
+// console.log(fibonacci(7))
+
+
+// FACTORIAL OF A NUMBER
+// problem statement: given an integer "n", find the factorial of that integer.
+// in mathematics, the factorial of a non-negative integer 'n', denoted n! is the product of all positive integers less than or equal to 'n'
+
+// Factorial of zero is 1.
+// factorial(4) = 4*3*2*1 = 24
+// factorial(5) = 5*4*3*2*1 = 120
+
+function factorial(n) {
+	let result = 1;
+	for(let i = 2; i <= n; i++) {
+		result = result * i
+	}
+
+	return result
 }
 
-test()
+console.log(factorial(0)) // 1;
+console.log(factorial(1)) // 1;
+console.log(factorial(5)) // 120;
+console.log(factorial(10)) // 120;
