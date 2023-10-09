@@ -199,16 +199,113 @@
 // factorial(4) = 4*3*2*1 = 24
 // factorial(5) = 5*4*3*2*1 = 120
 
-function factorial(n) {
-	let result = 1;
-	for(let i = 2; i <= n; i++) {
-		result = result * i
-	}
+// function factorial(n) {
+// 	let result = 1;
+// 	for(let i = 2; i <= n; i++) {
+// 		result = result * i
+// 	}
 
-	return result
-}
+// 	return result
+// }
 
-console.log(factorial(0)) // 1;
-console.log(factorial(1)) // 1;
-console.log(factorial(5)) // 120;
-console.log(factorial(10)) // 120;
+// console.log(factorial(0)) // 1;
+// console.log(factorial(1)) // 1;
+// console.log(factorial(5)) // 120;
+// console.log(factorial(10)) // 3628800;
+
+//PRIME NUMBER 
+// problem - given a natural number "n", determing if the number is prime or not
+// a prime number is a natural number greater than 1 that is not a product of two smaller natural numbers.
+
+// isPrime(5) = true (1 * 5 or 5 * 1)
+// isPrime(4) = false (2*2 or 2 + 2)
+
+// function isPrime(n) {
+// 	if(n < 2 ) {
+// 		return false
+// 	}
+// 	for(let i = 2; i <= n; i++) {
+// 		if(n%i === 0) {
+// 			return false
+// 		}
+// 		return true
+// 	}
+// }
+
+// console.log(isPrime(2))
+// console.log(isPrime(5))
+// console.log(isPrime(4))
+
+
+// POWER OF TWO
+// problem: Given a positive interger "n", 
+// determine if the number is a power of two or not
+
+// isPowerOfTwo(1) =true(2)
+// isPowerOfTwo(2) = true(2)
+// isPowerOfTwo(5) = false
+
+// n = 8
+// 8 / 2 = 4 remainder (0)
+// 4 / 2 = 2 remainder (0)
+// 2 / 2 = 1 remainder (0)
+
+// function isPowerOfTwo(n) {
+// 	if (n < 1) {
+// 		return false
+// 	}
+// 	while (n > 1) {
+// 		if (n % 2 !== 0) {
+// 			return false 
+// 		}
+// 		n = n / 2
+// 	}
+// 	return true
+// }
+// console.log(isPowerOfTwo(1))
+// console.log(isPowerOfTwo(2))
+// console.log(isPowerOfTwo(5))
+// console.log(isPowerOfTwo(8))
+
+// logarithmic
+
+// function isPowerOfTwoBitWise(n) {
+//   if (n < 1) {
+//     return false
+//   }
+//   return (n & (n - 1)) === 0
+// }
+
+// console.log(isPowerOfTwoBitWise(1))
+// console.log(isPowerOfTwoBitWise(2))
+// console.log(isPowerOfTwoBitWise(5))
+// console.log(isPowerOfTwoBitWise(8))
+
+// RECURSION 
+// recursion to solve the fibonacci
+
+// problem question: givin the number "n", find the element of the fibonacci sequence
+
+// in mathematics, the fibonacci sequence is a sequence in which each number is the sum of the two preceding ones
+// EG
+// The first two numbers in the sequence are 0 and 1. (0, 1, 1, 2, 3, 5,8...)
+
+// recursiveFibonacci(0) = 0
+// recursiveFibonacci(1) = 1
+// recursiveFibonacci(6) = 8
+
+// Fn = Fn-1 + Fn -2
+// F0 = 0 and F1 = 1
+
+// function recursiveFibonacci(n) {
+// 	// (0, 1, 1, 2, 3, 5,8...)
+// 	if (n < 2) {
+// 		return n
+// 	}
+// 	return recursiveFibonacci(n-1) + recursiveFibonacci(n-2)
+// }
+
+// console.log(recursiveFibonacci(0)) // 0
+// console.log(recursiveFibonacci(1))//  1
+// console.log(recursiveFibonacci(6))//  8
+
