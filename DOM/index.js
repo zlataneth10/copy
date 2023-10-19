@@ -4,6 +4,9 @@ const email = document.getElementById("email");
 const password = document.getElementById("password")
 const passwordRegEx = new RegExp(/[!@#$%^&*()_+\-=\[\]{};':"\\|,.<>\/?]/);
 
+const phoneNumber = document.getElementById("phoneNumber");
+const phoneRegEx = new RegExp(/^[0-9]{11}$/);
+
 
 nam.addEventListener("change", function () {
     if (nam.value.length < 5) {
@@ -34,6 +37,18 @@ password.addEventListener("change", function() {
         password.setAttribute("class", "form-control is-invalid");
         password.focus();
     }
+})
 
- 
+phoneNumber.addEventListener("change", function () {
+    if (phoneNumber.value.length != 11) {
+        alert("The phone number should contain 11 digits");
+        phoneNumber.setAttribute("class", "form-control is-invalid");
+        phoneNumber.focus();
+    }
+
+    if (!phoneRegEx.test(phoneNumber.value)) {
+        alert("the Phone Number should contain only digits")
+        phoneNumber.setAttribute("class", "form-control is-invalid");
+        phoneNumber.focus();
+    }
 })
