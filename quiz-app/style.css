@@ -59,7 +59,8 @@ button {
     border-radius: 5px;
     cursor: pointer;
     background-color: #f97316;
-    color: white;
+    color: black
+    
 }
 
 .finish {
